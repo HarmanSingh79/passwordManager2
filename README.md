@@ -35,5 +35,31 @@ PassOP (Full Stack) is a robust password manager that allows you to access your 
 
 #### 1. Backend Setup
 Navigate to the backend directory:
+```
 cd backend
 npm install
+```
+
+Create a .env file in the backend folder and add your configuration:
+```
+MONGO_URI=mongodb://localhost:27017/passop
+PORT=3000
+```
+
+Start the backend server:
+```
+node --watch server.js
+```
+
+#### 2. Frontend Setup
+Open a new terminal and navigate to the root (or frontend) directory:
+```
+cd frontend
+npm install
+```
+Start the React development server:
+```
+npm run dev
+```
+
+
