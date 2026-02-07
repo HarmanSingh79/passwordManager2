@@ -1,16 +1,39 @@
-# React + Vite
+# PassOP - Your Own Password Manager ☁️
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+PassOP (Full Stack) is a robust password manager that allows you to access your credentials. Built with the MERN stack, it features a Node.js/Express backend connected to a MongoDB database for secure, persistent storage.
 
-Currently, two official plugins are available:
+## ✨ Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Database Persistence:** Passwords are stored securely in a MongoDB database.
+- **Full CRUD API:** Backend API handling GET, POST, DELETE, and PUT requests.
+- **Modern UI:** Responsive and clean interface built with React and Tailwind CSS.
+- **Real-time Feedback:** Interactive toast notifications for all server interactions (Loading, Success, Error).
+- **Scalable Architecture:** Clean separation of concerns between frontend and backend.
 
-## React Compiler
+## 🛠️ Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+**Frontend:**
+- **React.js:** Component-based UI library
+- **Tailwind CSS:** Utility-first CSS framework
+- **React-Toastify:** For toast notifications
+- **UUID:** For unique identifier generation
 
-## Expanding the ESLint configuration
+**Backend:**
+- **Node.js:** JavaScript runtime environment
+- **Express.js:** Web framework for Node.js
+- **MongoDB:** NoSQL database for data storage
+- **Cors:** Middleware to enable Cross-Origin Resource Sharing
+- **Body-Parser:** Middleware to parse incoming request bodies
+- **Dotenv:** For loading environment variables
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+### Prerequisites
+- Node.js installed on your machine.
+- MongoDB installed locally OR a MongoDB Atlas connection string.
+
+### Installation & Setup
+
+#### 1. Backend Setup
+Navigate to the backend directory:
+cd backend
+npm install
