@@ -54,7 +54,6 @@ node --watch server.js
 #### 2. Frontend Setup
 Open a new terminal and navigate to the root (or frontend) directory:
 ```
-cd frontend
 npm install
 ```
 Start the React development server:
